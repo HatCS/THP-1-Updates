@@ -16,6 +16,9 @@
 14. [ Get in touch ](#git)
 15. [ Document info ](#editor)
 
+# Non-author published updates
+1. [ Metasploit service change (Page 7) ](#msc)
+
 <a name="SET"></a>
 ## 1. Installing Social Engineering Toolkit (Page 12)
 
@@ -177,3 +180,10 @@ book@thehackerplaybook.com
 ## 15. Document info
 
 Note: This document was forked and transcribed on 30 JUN 2022. The orginial information was written on/around 2 MAY 2018.
+
+<a name="msc"></a>
+## 1. Metasploit service change (Page 7)
+
+Metasploit is not implemented as a service any longer.
+
+If you have already run `service postgresql start`, then all you need to do is run `msfconsole`. You can also search through the taskbar for `metasploit framework`.
