@@ -43,9 +43,24 @@ Thanks Andreas!
 
 #### Editors note: I recommend using 10 million passwords instead of trying to find a link through Mega. I *assume* the content within is probalby similar to the original mega file.
 
-`cd /opt/`
+`cd ~/Desktop/password_list`
 
 `wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt`
+
+#### Want something bigger than an 8.2 MB text file? No problem!
+
+__If you have the space__, you can choose to download and unzip the aboslutely MASSIVE [RockYou2021](https://github.com/ohmybahgosh/RockYou2021.txt).
+
+To give you an idea of just how massive this list is, I tried to expand my VM instance by an additional 70GB *in addition* to the free space I already had, and I *still* ran out of space to unzip the first of __TWO__ files. This package is a combination of several other projects and previous works.
+
+Download the torrent: https://anonfiles.com/daLbwb0eu5/rockyou2021TXT_Wordlist_torrent
+
+`cd ~/Downloads/directory/path/here`
+
+`7z e RockYou2021.txt.7z.001`
+
+`7z e RockYou2021.txt.7z.002`
+
 
 <a name="sm"></a>
 ## 3. Start Metasploit (Page 7)
